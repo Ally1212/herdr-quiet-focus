@@ -1,0 +1,9 @@
+{
+  "place": "none",
+  "title": "待处理任务",
+  "version": "1.0.0",
+  "cloned_from": {
+    "name": "agents-quiet",
+    "version": "local-20261111"
+  }
+}

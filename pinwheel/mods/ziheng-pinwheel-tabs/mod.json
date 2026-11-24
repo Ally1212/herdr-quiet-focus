@@ -1,0 +1,9 @@
+{
+  "place": "none",
+  "title": "任务标签",
+  "version": "1.0.0",
+  "cloned_from": {
+    "name": "tabs-quiet",
+    "version": "local-20261111"
+  }
+}

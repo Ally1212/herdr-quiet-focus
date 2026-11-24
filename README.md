@@ -53,3 +53,15 @@ herdr-app check mods/workspace-chrome-quiet
 ```
 
 All five checks passed, and the active Herdr status reported no errors.
+
+## Pinwheel edition
+
+**By ziheng.** The current layout puts project folders first, connects status groups with a thin rail, and uses a rotating pinwheel to show which running agent has focus. The optional Codex integration adjusts the speed to recent tool activity.
+
+[Design notes, preview, and build recipe](pinwheel/RECIPE.md)
+
+To install alongside your current layout on Herdr App 0.1.17 or later, copy `pinwheel/layouts/` and `pinwheel/mods/` into your Herdr App home. Then switch to it.
+
+```sh
+herdr-app do layout.switch '{"name":"ziheng-pinwheel"}'
+```
