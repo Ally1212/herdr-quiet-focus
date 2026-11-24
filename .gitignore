@@ -1,2 +1,6 @@
 .DS_Store
 *.error
+
+# Herdr regenerates these when loading or checking a mod.
+/pinwheel/mods/*/gpui-kit.d.ts
+/pinwheel/mods/*/jsconfig.json
